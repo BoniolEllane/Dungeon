@@ -10,6 +10,10 @@ public abstract class AbstractDungeon : MonoBehaviour
     [SerializeField]
     protected Vector2Int startPos = Vector2Int.zero;
 
+    void Start()
+    {
+        createDungeon();
+    }
     public void createDungeon()
     {
         tiledungeonvis.Clear();

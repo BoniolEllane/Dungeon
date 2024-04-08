@@ -6,20 +6,18 @@ using Random = UnityEngine.Random;
 
 public class RoomFirst : RWalkDungeon
 {
-    [SerializeField]
-    public int minRoomW, minRoomH;
+    
+    private int minRoomW = 10, minRoomH =10;
 
-    [SerializeField]
+    
     //parameters for cave size; big area that will split into rooms
-    public int dungeonW , dungeonH;
+    private int dungeonW =70 , dungeonH = 70;
 
-    [SerializeField]
-    [Range(0,10)]
+    
     //offset from bounds of the rooms; walls dividing rooms
-    public int offset;
+    private int offset = 2;
 
-    [SerializeField]
-    public bool randRooms = false; //checking if implements RW or square rooms
+    private bool randRooms = true; //checking if implements RW or square rooms
 
     
     protected override void runProcdungeon()
