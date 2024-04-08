@@ -7,16 +7,7 @@ using Random = UnityEngine.Random;
 public class RoomFirst : RWalkDungeon
 {
     
-    private int minRoomW = 10, minRoomH =10;
-
-    
-    //parameters for cave size; big area that will split into rooms
-    private int dungeonW =70 , dungeonH = 70;
-
-    
-    //offset from bounds of the rooms; walls dividing rooms
-    private int offset = 2;
-
+   public SceneParameters dungeonSize;
     private bool randRooms = true; //checking if implements RW or square rooms
 
     
@@ -29,7 +20,7 @@ public class RoomFirst : RWalkDungeon
     {
         //call bsp
         var roomList = ProcDungeonAlgo.BSP(new BoundsInt((Vector3Int)startPos, 
-            new Vector3Int(dungeonW, dungeonH, 0)), minRoomW, minRoomH);
+            new Vector3Int(dungeonSize.dungeonW, dungeonSize.dungeonH, 0)),  dungeonSize.minRoomW,  dungeonSize.minRoomH);
 
         HashSet<Vector2Int> floor = new HashSet<Vector2Int>();
 
@@ -141,9 +132,9 @@ public class RoomFirst : RWalkDungeon
         //hashset contains all the floors for all rooms
         foreach (var room in roomList) //looping through each BoundsInt
         {
-            for (int col = offset; col < room.size.x - offset; col++)
+            for (int col =  dungeonSize.offset; col < room.size.x -  dungeonSize.offset; col++)
             {
-                for (int row = offset; row < room.size.y - offset; row++)
+                for (int row =  dungeonSize.offset; row < room.size.y -  dungeonSize.offset; row++)
                 {
                     Vector2Int pos = (Vector2Int)room.min + new Vector2Int(col, row);
                     floor.Add(pos);
@@ -165,8 +156,8 @@ public class RoomFirst : RWalkDungeon
 
             foreach (var pos in roomFloor) 
             {
-                if(pos.x >= (roomBounds.xMin + offset) && pos.x <= (roomBounds.xMax - offset) && pos.y >= (roomBounds.yMin - offset)
-                    && pos.y <= (roomBounds.yMax - offset))
+                if(pos.x >= (roomBounds.xMin +  dungeonSize.offset) && pos.x <= (roomBounds.xMax -  dungeonSize.offset) && pos.y >= (roomBounds.yMin -  dungeonSize.offset)
+                    && pos.y <= (roomBounds.yMax -  dungeonSize.offset))
                 {
                     floor.Add(pos);
                 }
