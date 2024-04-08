@@ -12,11 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes and Scripts/Scenes/Main Menu.unity
     guid: 73b5269239d938744ab0ea841f0052dd
   - enabled: 1
-    path: Assets/Scenes and Scripts/Scenes/Level.unity
+    path: Assets/Scenes and Scripts/Scenes/LevelButton/Level.unity
     guid: ae5376c4cbc81c24695db142cca746e5
-  - enabled: 1
-    path: Assets/Scenes and Scripts/Scenes/Difficulty/Difficulty.unity
-    guid: 5dab248bdbfac1242bda81922e327a3d
   - enabled: 1
     path: Assets/Scenes and Scripts/Scenes/Collection.unity
     guid: 0dceec395242d234583a414d46cd9039
