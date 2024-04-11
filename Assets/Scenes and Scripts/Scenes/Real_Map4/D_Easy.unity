@@ -12953,9 +12953,9 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35, y: 59, z: -10}
+  m_LocalPosition: {x: 14.1, y: 304.9, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12988,7 +12988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f5427aa802f1040b13cf48884ee461, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiledungeonvis: {fileID: 956038657}
+  tiledungeonvis: {fileID: 1079453415}
   startPos: {x: 0, y: 0}
   randWalkParam: {fileID: 11400000, guid: c6754a0735bc3054ab9b47f4e6c5ebfd, type: 2}
   dungeonSize: {fileID: 11400000, guid: 395bb5fa7b9ead341ac9eece5376d3f3, type: 2}
@@ -13003,7 +13003,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 23, y: 49.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13035,12 +13035,12 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 284442683}
   - {fileID: 1183830312}
   - {fileID: 1672575469}
-  - {fileID: 956038656}
+  - {fileID: 1079453416}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &853703833
@@ -13055,64 +13055,6 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
---- !u!1 &956038655
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 956038656}
-  - component: {fileID: 956038657}
-  m_Layer: 0
-  m_Name: EasyMap
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &956038656
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 956038655}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 853703832}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &956038657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 956038655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c619f0f13d4c8aa45967632a548b9456, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  floorTileDungeon: {fileID: 284442681}
-  wallTileMap: {fileID: 1183830310}
-  floorTile: {fileID: 11400000, guid: 471853985ed4b5242ad12af71ace0cf6, type: 2}
-  wallTop: {fileID: 11400000, guid: 22c9f328675568942a63b2770a6a63dc, type: 2}
-  wallRightSide: {fileID: 11400000, guid: 56a025a4f1e8ec14ebfa0c2300d95b8e, type: 2}
-  wallLeftSide: {fileID: 11400000, guid: 0f895bfef3ebb4f4aacf3fac66196c1c, type: 2}
-  wallDown: {fileID: 11400000, guid: 17de16fed6ed8cc4fa8aed5e072ee432, type: 2}
-  wallAll: {fileID: 11400000, guid: 9bd9b91a7e97483419306d5b0c9c37ec, type: 2}
-  wallInnerCornerDownLeft: {fileID: 11400000, guid: 32fb4d0075b44bf43b045b03663afc2c, type: 2}
-  wallInnerCornerDownRight: {fileID: 11400000, guid: a4a8fd2caea494c45916e75fc21be5c2, type: 2}
-  wallDiagonalCornerDownLeft: {fileID: 11400000, guid: f0876383a0a9e9f4a8f543d8515e12c0, type: 2}
-  wallDiagonalCornerDownRight: {fileID: 11400000, guid: 809171e13e7908f40a916074c244f08c, type: 2}
-  wallDiagonalCornerUpLeft: {fileID: 11400000, guid: 990709a76d4f9124db8ca4026e79a932, type: 2}
-  wallDiagonalCornerUpRight: {fileID: 11400000, guid: 809171e13e7908f40a916074c244f08c, type: 2}
 --- !u!114 &1038902378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13147,6 +13089,64 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
+--- !u!1 &1079453414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1079453416}
+  - component: {fileID: 1079453415}
+  m_Layer: 0
+  m_Name: EasyMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1079453415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079453414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c619f0f13d4c8aa45967632a548b9456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorTileDungeon: {fileID: 284442681}
+  wallTileMap: {fileID: 1183830310}
+  floorTile: {fileID: 11400000, guid: a31523cb4a9b2854ba6be38154ab23ed, type: 2}
+  wallTop: {fileID: 11400000, guid: b7021c4f06c98ab41b1b0444ffa0cde4, type: 2}
+  wallRightSide: {fileID: 11400000, guid: ec6079ba26d731e498a69ae2f04f649f, type: 2}
+  wallLeftSide: {fileID: 11400000, guid: c7defc3419193134798c632ef46f8d5c, type: 2}
+  wallDown: {fileID: 11400000, guid: 82698cc45af02b94b91c4046ad9128f2, type: 2}
+  wallAll: {fileID: 11400000, guid: 47cfc9742f61da34cb8170396d0c30c2, type: 2}
+  wallInnerCornerDownLeft: {fileID: 11400000, guid: 31fea7a37910d90458219f019f9b1340, type: 2}
+  wallInnerCornerDownRight: {fileID: 11400000, guid: 4f984150e58922446ac602fcac45e931, type: 2}
+  wallDiagonalCornerDownLeft: {fileID: 11400000, guid: 00713932e4abec94a84c8a059b231817, type: 2}
+  wallDiagonalCornerDownRight: {fileID: 11400000, guid: 533f2bf5cb89b284e9fd21aec75aed6d, type: 2}
+  wallDiagonalCornerUpLeft: {fileID: 11400000, guid: fa709f5a40cc9ce4bbfaa6a47bd69b3d, type: 2}
+  wallDiagonalCornerUpRight: {fileID: 11400000, guid: 08f7f7970ec9af2439b27ffe1938c7f1, type: 2}
+--- !u!4 &1079453416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079453414}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 853703832}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1134980378
 GameObject:
   m_ObjectHideFlags: 0
