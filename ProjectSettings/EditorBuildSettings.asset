@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes and Scripts/Scenes/Main Menu/Main Menu.unity
     guid: 73b5269239d938744ab0ea841f0052dd
   - enabled: 1
-    path: Assets/Scenes and Scripts/Scenes/LevelButton/Level.unity
+    path: Assets/Scenes and Scripts/Scenes/FloorNames/Floor.unity
     guid: ae5376c4cbc81c24695db142cca746e5
   - enabled: 1
     path: Assets/Scenes and Scripts/Scenes/Collection.unity
