@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class FloorScript : MonoBehaviour
 {
-    public void MainMenu()
-    {
-        SceneManager.LoadSceneAsync(1);
+    private Main_Menu menu;
+    private void Return(){
+        menu.MainMenu();
+    }
+    public void Diff_Selection(){
+        SceneManager.LoadSceneAsync(3);
     }
 }

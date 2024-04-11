@@ -784,7 +784,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1014852278}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 413014085}
+        m_TargetAssemblyTypeName: FloorScript, Assembly-CSharp
+        m_MethodName: Diff_Selection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1014852278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1045,8 +1057,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2130830821}
   - {fileID: 1014852276}
+  - {fileID: 2130830821}
   - {fileID: 1644717341}
   m_Father: {fileID: 1556502190}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1244,7 +1256,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1644717343}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 413014085}
+        m_TargetAssemblyTypeName: FloorScript, Assembly-CSharp
+        m_MethodName: Diff_Selection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1644717343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1634,7 +1658,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2130830823}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 413014085}
+        m_TargetAssemblyTypeName: FloorScript, Assembly-CSharp
+        m_MethodName: Diff_Selection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2130830823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1690,9 +1726,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2130830826}
+        - m_Target: {fileID: 11500000, guid: c26d9ed5fcdc1a1409f01438be390949, type: 3}
           m_TargetAssemblyTypeName: ButtonHover, Assembly-CSharp
-          m_MethodName: OnPointerEnter
+          m_MethodName: 
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
