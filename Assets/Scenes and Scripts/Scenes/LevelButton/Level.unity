@@ -285,7 +285,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MEDIUM
+  m_text: 'OBSIDIAN
+
+    LABYRINTH'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 09c56809b636a9044bde1890e0a1f344, type: 2}
   m_sharedMaterial: {fileID: -3012773774192664938, guid: 09c56809b636a9044bde1890e0a1f344, type: 2}
@@ -551,7 +553,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EASY
+  m_text: 'SHADOWED
+
+    HALLS'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 09c56809b636a9044bde1890e0a1f344, type: 2}
   m_sharedMaterial: {fileID: -3012773774192664938, guid: 09c56809b636a9044bde1890e0a1f344, type: 2}
@@ -934,7 +938,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NIGHTMARE
+  m_text: 'CRIMSON
+
+    COMPLEX'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 09c56809b636a9044bde1890e0a1f344, type: 2}
   m_sharedMaterial: {fileID: -3012773774192664938, guid: 09c56809b636a9044bde1890e0a1f344, type: 2}
