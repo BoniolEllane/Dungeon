@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class FloorScript : MonoBehaviour
 {
-    private Main_Menu menu;
-    private void Return(){
-        menu.MainMenu();
+    public void MainMenu()
+    {
+        SceneManager.LoadSceneAsync(1);
     }
     public void Diff_Selection(){
         SceneManager.LoadSceneAsync(3);
