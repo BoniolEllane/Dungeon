@@ -108,7 +108,6 @@ public static class ProcDungeonAlgo
         BoundsInt room1 = new BoundsInt(room.min, new Vector3Int(room.size.x, ySplit, room.size.z));
         BoundsInt room2 = new BoundsInt(new Vector3Int(room.min.x, room.min.y + ySplit, room.min.z),
             new Vector3Int(room.size.x, room.size.y - ySplit, room.size.z));
-
         roomsQueue.Enqueue(room1);
         roomsQueue.Enqueue(room2);
     }
@@ -142,10 +141,10 @@ public static class Direct_2D
         new Vector2Int(1,1), //UP-RIGHT
         new Vector2Int(1,0), //RIGHT
         new Vector2Int(1,-1), //RIGHT-DOWN
-        new Vector2Int(-1,0), //LEFT
-        new Vector2Int(-1,-1), //DOWN-LEFT
-        new Vector2Int(0,-1), //DOWN
-        new Vector2Int(-1,1) //LEFT-UP
+        new Vector2Int(0, -1), // DOWN
+        new Vector2Int(-1, -1), // DOWN-LEFT
+        new Vector2Int(-1, 0), //LEFT
+        new Vector2Int(-1, 1) //LEFT-UP
     };
 
     public static Vector2Int randDirect()
