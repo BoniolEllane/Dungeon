@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes and Scripts/Scenes/Real_Map4/D_Easy.unity
+    path: Assets/Scenes and Scripts/Scenes/Diff_Selection3/D_Easy.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes and Scripts/Scenes/Main_Menu1/Main Menu.unity
     guid: 73b5269239d938744ab0ea841f0052dd
   - enabled: 1
-    path: Assets/Scenes and Scripts/Scenes/FloorNames2/Floor.unity
+    path: Assets/Scenes and Scripts/Scenes/FloorMaps2/Floor.unity
     guid: ae5376c4cbc81c24695db142cca746e5
   - enabled: 1
     path: Assets/Scenes and Scripts/Scenes/Diff_Selection3/Difficulty Menu.unity

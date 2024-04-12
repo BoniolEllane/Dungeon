@@ -6,7 +6,13 @@ using Random = UnityEngine.Random;
 
 public class RoomFirst : RWalkDungeon
 {
-    
+    private TileVisual tileVisual;
+
+    public void SetTileMapVis(TileVisual tileVisual)
+    {
+        this.tileVisual = tileVisual;
+    }
+
    public SceneParameters dungeonSize;
     private bool randRooms = true; //checking if implements RW or square rooms
 
