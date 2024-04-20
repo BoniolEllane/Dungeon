@@ -13120,18 +13120,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   floorTileDungeon: {fileID: 284442681}
   wallTileMap: {fileID: 1183830310}
-  floorTile: {fileID: 11400000, guid: 8ba291f44a934c543a6deedd0d7dd68d, type: 2}
-  wallTop: {fileID: 11400000, guid: b7021c4f06c98ab41b1b0444ffa0cde4, type: 2}
-  wallRightSide: {fileID: 11400000, guid: ec6079ba26d731e498a69ae2f04f649f, type: 2}
-  wallLeftSide: {fileID: 11400000, guid: c7defc3419193134798c632ef46f8d5c, type: 2}
-  wallDown: {fileID: 11400000, guid: 82698cc45af02b94b91c4046ad9128f2, type: 2}
-  wallAll: {fileID: 11400000, guid: 47cfc9742f61da34cb8170396d0c30c2, type: 2}
-  wallInnerCornerDownLeft: {fileID: 11400000, guid: 6cf2124214313fd479a933b1bd95f536, type: 2}
-  wallInnerCornerDownRight: {fileID: 11400000, guid: 74a724ea923051c4390aaad5a0c59756, type: 2}
-  wallDiagonalCornerDownLeft: {fileID: 11400000, guid: 31fea7a37910d90458219f019f9b1340, type: 2}
-  wallDiagonalCornerDownRight: {fileID: 11400000, guid: 4f984150e58922446ac602fcac45e931, type: 2}
-  wallDiagonalCornerUpLeft: {fileID: 11400000, guid: fa709f5a40cc9ce4bbfaa6a47bd69b3d, type: 2}
-  wallDiagonalCornerUpRight: {fileID: 11400000, guid: 08f7f7970ec9af2439b27ffe1938c7f1, type: 2}
+  floorTile: {fileID: 11400000, guid: 3b519c0749e910444896dcbff5a9cc2e, type: 2}
+  wallTop: {fileID: 11400000, guid: 4f5e134ba4419384bb710a41df6ac1d2, type: 2}
+  wallRightSide: {fileID: 11400000, guid: db131f1aaf2010343be73904d38faaf0, type: 2}
+  wallLeftSide: {fileID: 11400000, guid: b84fdf36ca3ad96449a35ee1b004ac37, type: 2}
+  wallDown: {fileID: 11400000, guid: 0405b6bba999dc84aa7badccfb5b5e21, type: 2}
+  wallAll: {fileID: 11400000, guid: b050f4ed314b17948b16d924cfe71ead, type: 2}
+  wallInnerCornerDownLeft: {fileID: 11400000, guid: 989238477efc8ee48918700a5bfc8525, type: 2}
+  wallInnerCornerDownRight: {fileID: 11400000, guid: ab234d2b23362a947aa0dfc3f83837ac, type: 2}
+  wallDiagonalCornerDownLeft: {fileID: 11400000, guid: ad018df3275af2147a2832dd88d9966f, type: 2}
+  wallDiagonalCornerDownRight: {fileID: 11400000, guid: 60ec61c3a22295a49aa85d1b9b91983b, type: 2}
+  wallDiagonalCornerUpLeft: {fileID: 11400000, guid: 7e820ff166472194caf0ff44d99aaaca, type: 2}
+  wallDiagonalCornerUpRight: {fileID: 11400000, guid: ed833a6f56d781b43a287af4b1d69f7d, type: 2}
 --- !u!4 &1079453416
 Transform:
   m_ObjectHideFlags: 0
