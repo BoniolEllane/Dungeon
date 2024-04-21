@@ -8,7 +8,7 @@ public class Main_Menu : MonoBehaviour
 {
     public void FloorScript()
     {
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync(1);
         }
     public void QuitGame() 
     { 
@@ -16,6 +16,6 @@ public class Main_Menu : MonoBehaviour
     }
     public void MainMenu()
     {
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(0);
     }
 }
