@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e05d56a694983640b6f6b5475c280b2, type: 3}
-  m_Name: Difficulty_Easy
+  m_Name: Medium
   m_EditorClassIdentifier: 
-  iterations: 50
-  wLength: 15
+  iterations: 100
+  wLength: 25
   randIteration: 1

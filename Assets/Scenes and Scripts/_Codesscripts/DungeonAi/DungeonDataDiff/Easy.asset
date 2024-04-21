@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minRoomW: 10
   minRoomH: 10
-  dungeonW: 50
-  dungeonH: 50
+  dungeonW: 60
+  dungeonH: 60
   offset: 2

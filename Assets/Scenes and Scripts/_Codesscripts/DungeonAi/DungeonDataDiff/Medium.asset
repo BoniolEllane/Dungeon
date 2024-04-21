@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4f0642760689064e850ce1d50ab1d5b, type: 3}
   m_Name: Medium
   m_EditorClassIdentifier: 
-  minRoomW: 20
-  minRoomH: 20
-  dungeonW: 150
-  dungeonH: 150
+  minRoomW: 15
+  minRoomH: 15
+  dungeonW: 100
+  dungeonH: 100
   offset: 3

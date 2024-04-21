@@ -619,6 +619,7 @@ GameObject:
   - component: {fileID: 283885051}
   - component: {fileID: 283885050}
   - component: {fileID: 283885049}
+  - component: {fileID: 283885052}
   m_Layer: 5
   m_Name: Intermediate
   m_TagString: Untagged
@@ -731,6 +732,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283885047}
   m_CullTransparentMesh: 1
+--- !u!114 &283885052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283885047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 958f66aa9fe35f643850e98b99c5862b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonName: intermediate
 --- !u!1 &531642538
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,6 +1160,7 @@ GameObject:
   - component: {fileID: 1130874527}
   - component: {fileID: 1130874526}
   - component: {fileID: 1130874525}
+  - component: {fileID: 1130874528}
   m_Layer: 5
   m_Name: Easy
   m_TagString: Untagged
@@ -1257,6 +1272,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130874523}
   m_CullTransparentMesh: 1
+--- !u!114 &1130874528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130874523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 958f66aa9fe35f643850e98b99c5862b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonName: easy
 --- !u!1 &1311660441
 GameObject:
   m_ObjectHideFlags: 0
@@ -1884,6 +1912,7 @@ GameObject:
   - component: {fileID: 1571384892}
   - component: {fileID: 1571384891}
   - component: {fileID: 1571384890}
+  - component: {fileID: 1571384893}
   m_Layer: 5
   m_Name: Nightmare
   m_TagString: Untagged
@@ -1997,6 +2026,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571384888}
   m_CullTransparentMesh: 1
+--- !u!114 &1571384893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571384888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 958f66aa9fe35f643850e98b99c5862b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonName: nightmare
 --- !u!1 &1601842193
 GameObject:
   m_ObjectHideFlags: 0

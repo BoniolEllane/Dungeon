@@ -714,8 +714,9 @@ GameObject:
   - component: {fileID: 1014852277}
   - component: {fileID: 1014852281}
   - component: {fileID: 1014852280}
+  - component: {fileID: 1014852282}
   m_Layer: 5
-  m_Name: 1st floor
+  m_Name: 1F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -893,6 +894,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textToDisplay: {fileID: 597000702}
+--- !u!114 &1014852282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014852275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee8a1b532e9885b45ad8f513e4dd0869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonName: shadowed
 --- !u!1 &1238964541
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,8 +1200,9 @@ GameObject:
   - component: {fileID: 1644717342}
   - component: {fileID: 1644717346}
   - component: {fileID: 1644717345}
+  - component: {fileID: 1644717347}
   m_Layer: 5
-  m_Name: 3rd floor
+  m_Name: 3F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1365,6 +1380,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textToDisplay: {fileID: 1238964541}
+--- !u!114 &1644717347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644717340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee8a1b532e9885b45ad8f513e4dd0869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonName: crimson
 --- !u!1 &1691841168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,8 +1616,9 @@ GameObject:
   - component: {fileID: 2130830822}
   - component: {fileID: 2130830826}
   - component: {fileID: 2130830825}
+  - component: {fileID: 2130830827}
   m_Layer: 5
-  m_Name: 2nd floor
+  m_Name: 2F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1767,6 +1796,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textToDisplay: {fileID: 495201639}
+--- !u!114 &2130830827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130830820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee8a1b532e9885b45ad8f513e4dd0869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonName: obsidian
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
